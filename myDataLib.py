@@ -27,9 +27,9 @@ class FileManager:
         file.SetContentFile(path)
         file.Upload()
 
-    def download_file(self, filename):
-        file = drive.CreateFile({'title': f'{filename}', 'parents': [{'id': f"{self.data['id']}"}]})
-        file.SetContentFile(filename)
+    def download_file(self, query):
+        file = drive.CreateFile({'id': f'{query["id"]}', 'parents': [{'id': f"{self.data['id']}"}]})
+        file.GetContentFile(f"{query['title']}")
 
     # create list filename in folder
     def clist_lfif(self):

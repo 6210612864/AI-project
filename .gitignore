@@ -261,6 +261,7 @@ dmypy.json
 *.code-workspace
 
 #### my ignore ####
-settings.yml
+settings.yaml
 client_secrets.json
 credentials.json
+/.idea/

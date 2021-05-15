@@ -265,8 +265,7 @@ settings.yaml
 client_secrets.json
 credentials.json
 /.idea/
-/DL/dataset_train/
-/DL/dataset_test/
-/DL/gsaved_models/
-/DL/nsaved_models/
-/DL/osaved_models/
+/DL/Models/
+/DL/Dataset/
+/ML/Models/
+/ML/Dataset/
